@@ -1,0 +1,50 @@
+/*Hero Section*/
+#hero {
+    display: flex;
+    height: 600px;
+    padding: 10%;
+    align-items: center;
+    justify-content: center;
+    background-image: url("bgimages/samplehero02.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+#hero h1, #hero h2 {
+    color: #ffffff;
+}
+
+/*.sectionpadding {
+    border-bottom: 1px solid #000000;
+}*/
+
+#MissionStatement {
+    text-align: center;
+}
+
+#MissionStatement > h3 {
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+#MissionStatement > p {
+    padding-top: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#TeamAbout {
+    text-align: center;
+}
+
+#TeamAbout > h4 {
+    background-color: lightgrey;
+    padding: 5px;
+}
+
+#TeamAbout > p {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
