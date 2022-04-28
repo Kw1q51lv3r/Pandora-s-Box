@@ -38,13 +38,42 @@
     text-align: center;
 }
 
-#TeamAbout > h4 {
+#TeamAbout > h3 {
     background-color: lightgrey;
-    padding: 5px;
+    padding: 10px;
 }
 
 #TeamAbout > p {
-    padding-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.AboutPerson {
+    margin-bottom: 45px;
+}
+
+.AboutPerson > h3 {
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+}
+
+.AboutContent {
+    display: flex;
+}
+
+.AboutContent > img {
+    min-width: 125px;
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: auto;
+}
+
+.AboutContent > p {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
