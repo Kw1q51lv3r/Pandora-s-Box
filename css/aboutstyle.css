@@ -19,34 +19,76 @@
     border-bottom: 1px solid #000000;
 }*/
 
-#MissionStatement {
+#MissionStatementD {
     text-align: center;
 }
 
-#MissionStatement > h3 {
+#MissionStatementD > h3 {
     background-color: lightgrey;
     padding: 10px;
 }
 
-#MissionStatement > p {
+#MissionStatementD > p {
     padding-top: 15px;
     padding-left: 45px;
     padding-right: 45px;
 }
 
-#TeamAbout {
+#MissionStatementM {
+    display: none;
+}
+
+@media only screen and (max-width: 720px) {
+
+    #MissionStatementD {
+        display: none;
+    }
+    
+    #MissionStatementM {
+        display: contents;
+        text-align: center;
+    }
+
+    #MissionStatementM > h3 {
+        background-color: lightgrey;
+        padding:10px
+    }
+}
+
+#TeamAboutD {
     text-align: center;
 }
 
-#TeamAbout > h3 {
+#TeamAboutD > h3 {
     background-color: lightgrey;
     padding: 10px;
 }
 
-#TeamAbout > p {
+#TeamAboutD > p {
     padding-top: 15px;
     padding-left: 45px;
     padding-right: 45px;
+}
+
+#TeamAboutM {
+    display: none;
+}
+
+@media only screen and (max-width: 720px) {
+
+    #TeamAboutD {
+        display: none;
+    }
+    
+    #TeamAboutM {
+        display: contents;
+        text-align: center;
+    }
+
+    #TeamAboutM > h3 {
+        background-color: lightgrey;
+        padding:10px
+    }
 }
 
 .AboutPerson {
@@ -59,21 +101,48 @@
     text-align: center;
 }
 
-.AboutContent {
+.AboutContentD {
     display: flex;
 }
 
-.AboutContent > img {
+.AboutContentD > img {
     min-width: 125px;
-    width: 25%;
+    width: 35%;
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 15px;
     margin-bottom: auto;
 }
 
-.AboutContent > p {
+.AboutContentD > p {
     margin-top: 10px;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.AboutContentM {
+    display: none;
+}
+
+@media only screen and (max-width: 720px) {
+
+    .AboutContentD {
+        display: none;
+    }
+    
+    .AboutContentM {
+        display: flex;
+    }
+
+    .AboutContentM > img {
+        min-width: 75px;
+        width: 25%;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-bottom: auto;
+    }
+
+    .AboutContentM > p {
+        margin-top: 10px;
+    }
 }
