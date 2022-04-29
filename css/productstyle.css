@@ -1,0 +1,28 @@
+
+.line {
+    text-decoration: line-through;
+}
+
+.paddingtoptall {
+    padding-top: 25px;
+}
+
+#pdthero {
+    display: flex;
+    height: 600px;
+    padding: 10%;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("images/marblewhitebg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/*Subscription Plans Section*/
+.subscriptiongrid img {
+    width: 100%;
+}
+
+
+/*Products Section*/
