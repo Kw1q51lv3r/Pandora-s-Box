@@ -88,7 +88,7 @@
       <h4 class="paddingtopimages">We curate only the best sustainably sourced and natural products for you, <br>at unbeatable prices.</h4>
 
       <div class="row gx-5 subscriptiongrid paddingtoptall">
-        <div class="col-md-4 plancard bisque">
+        <div class="col-md-4 plancard bisque ">
           <h4>Lite</h4>
           <img src="images/sample01.jpg">
           <p class="paddingtopimages">Ideal for singles or couples</p>
@@ -127,81 +127,78 @@
   </section>
 
 
-<!--Products-->
-<section class="pdt sectionpadding text-center">
-    <div>
+<!--Product Section-->
+
+<section class="pdt sectionpadding">
+    
+    <div class="text-center">
         <h3>Products that go in your box</h3>
+        
         <p class "paddingtopimages">We work with partners around the world to get the most luxurious bath, spa and wardrobe essentials to you,
         <br>
-        without the traditional retail markups.</p>
-
-      <div class="row gx-5 subscriptiongrid paddingtoptall">
-        <div class="col-md-4">
-          <img src="images/menbodywash.jpg">
-          <h4 class="paddingtopimages">Lemongrass Bodywash</h4>
-          <p>Usual Retail Price $25</p>
-        </div>
-
-        <div class="col-md-4">
-          <img src="images/moisturiser.jpg">
-          <h4 class="paddingtopimages">Leah's Rescue Serum</h4>
-          <p>Usual Retail Price $49</p>
-        </div>
-
-        <div class="col-md-4">
-          <img src="images/shampoo1.jpg">
-          <h4 class="paddingtopimages">Grapefruit Body Wash</h4>
-          <p>Usual Retail Price $29</p>
-        </div>
+        without the traditional retail markups.</p> 
     </div>
 
-    <div>
-      <div class="row gx-5 subscriptiongrid paddingtoptall">
-        <div class="col-md-4">
-          <img src="images/facewash.jpg">
-          <h4 class="paddingtopimages">Ciara Fash Wash</h4>
-          <p>Usual Retail Price $27</p>
+  
+<!--filter-->
+
+
+<div class="text-center">
+          
+  <p>
+    Click here to filter products by category:
+    <button class="categoryTypes">Moisturisers</button> 
+    <button class="categoryTypes">Bodywashes</button>
+    <button class="categoryTypes">Oral Care</button>
+    <button class="categoryTypes">Apparel</button>
+
+  </p>   
+
+</div>
+
+  <!--Individual product display section-->
+
+    <div class="card-columns">
+
+        <div class="row gx-5 subscriptiongrid paddingtoptall productsstuff text-center">
         </div>
 
-        <div class="col-md-4">
-          <img src="images/handcream.jpg">
-          <h4 class="paddingtopimages">Olive Hand Cream</h4>
-          <p>Usual Retail Price $18</p>
-        </div>
+      </div>
 
-        <div class="col-md-4">
-          <img src="images/essentialoil.jpg">
-         <h4 class="paddingtopimages">Rosehip Facial Oil</h4>
-          <p>Usual Retail Price $49</p>
-        </div>
-    </div>
+  <!-- Modal for product item details -->
 
-    <div>
-      <div class="row gx-5 subscriptiongrid paddingtoptall">
-        <div class="col-md-4">
-          <img src="images/pinkcrop.jpg">
-          <h4 class="paddingtopimages">Supima Cotton Crop</h4>
-          <p>Usual Retail Price $48</p>
-        </div>
-
-        <div class="col-md-4">
-          <img src="images/blackshirt.jpg">
-          <h4 class="paddingtopimages">Men's Oversized Tee</h4>
-          <p>Usual Retail Price $49</p>
-        </div>
-
-        <div class="col-md-4">
-          <img src="images/mwwhiteshirt.jpg">
-          <h4 class="paddingtopimages">White Polo Tee</h4>
-          <p>Usual Retail Price $39</p>
-        </div>
-
-        <!--Need to put in function to show more items-->
-        <p>Show more</p>
+<div class="modal fade" id="exampleModalLive" tabindex="-1" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+              
+                <h4 id="itemTitle">XXXXXXXXXX</h4>
         
-    </div>
+                <div><button type="button" class="btn btn-light" data-bs-dismiss="modal">X</button></div>
 
-  </section>
+            </div>
+
+            <div class="modal-body">
+            <img id="itemImage" class="card-img-top" alt="Product Item Image"><br><br>
+        
+            <p><span id="itemDesc">XXXXXXXXXXXX</span></p>
+
+            <p><b><span id="itemRecoDelivery">XXXXXXXXXXXX</span></b></p>
+            <p>_____</p>
+            <p><span id="itemTrivia">XXXXXXXXXXXX</span></p>
+           
+            </div>
+
+            <div class="modal-footer">
+
+              <button type="button" class="btn btn-secondary">Add to cart</button>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
 
 
   <!--Footer-->
@@ -238,8 +235,9 @@
 
  <!--Script needs to be at the end of the page-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="js/itemsController.js"></script>
-<script src-"js/index.js"></script>
+<script src="js/pandorasboxcontroller.js"></script>
+<script src="js/displaypandorasboxproduct.js"></script>
+
 
 </body>
 </html>
