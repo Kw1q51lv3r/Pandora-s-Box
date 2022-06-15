@@ -133,10 +133,13 @@
     .AboutContentM {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     .AboutContentM > img {
         margin-top: 15px;
+        height: auto;
+        width: 100%;
     }
 
     .AboutContentM > p {
